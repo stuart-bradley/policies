@@ -180,7 +180,7 @@
         <h2>Introduction</h2>
         <p>This privacy policy describes how <strong>Tasks on Time</strong> (<code>com.stuartbradley.taskarr</code>), developed by Stuart Bradley, handles your data.</p>
         <div class="highlight-box">
-          Tasks on Time does not collect, transmit, or share your data with the developer or any server we operate. The app requires no account and contains no tracking. Your data stays on your device — though your device's own backup system (such as Android Auto Backup or Apple iCloud) may keep a copy in your personal cloud account if you have device backups enabled. See <strong>Device Backups</strong> below.
+          Tasks on Time does not collect, transmit, or share your data with the developer or any server we operate. The app requires no account and contains no tracking. Your data stays on your device — though your device's own backup system (such as Android Auto Backup or Apple iCloud) may keep a copy in your personal cloud account if you have device backups enabled. The one-time £4 unlock is handled by Google Play. See <strong>Device Backups</strong> below.
         </div>
       </section>
 
@@ -194,6 +194,7 @@
           <li>Categories and sort order</li>
           <li>Notification and reminder preferences</li>
           <li>App settings (theme, display preferences)</li>
+          <li>A trial-start timestamp, used to track your 28-day free trial on-device</li>
         </ul>
         <p>This data is stored in a local database on your device. The app itself never transmits it to the developer or any server we operate. If you have device backups enabled, your device's operating system may include a copy in your personal cloud account — see <strong>Device Backups</strong> below.</p>
       </section>
@@ -221,15 +222,22 @@
           <li>Showing overdue status based on your configured thresholds</li>
           <li>Triggering local notification reminders</li>
           <li>Rendering home screen widgets</li>
+          <li>Determining whether your free trial is still active</li>
         </ul>
         <p>Your data is never used for advertising, profiling, or analytics of any kind.</p>
+      </section>
+
+      <section id="purchases">
+        <h2>Purchases (Google Play Billing)</h2>
+        <p>Tasks on Time is free for a 28-day trial, after which a single one-time <strong>£4</strong> purchase (<code>tasksontime_lifetime_unlock</code>) unlocks the app permanently — there is no subscription.</p>
+        <p>This purchase is processed entirely by <strong>Google Play Billing</strong>. We never see or receive your payment details, and we operate no server that verifies or records purchases. Your entitlement (whether you have unlocked the app) is managed by Google Play and restored automatically when you reinstall or set up a new device. Google's handling of your purchase is governed by Google's own privacy policy.</p>
       </section>
 
       <section id="data-sharing">
         <h2>Data Sharing</h2>
         <p><strong>Tasks on Time does not share any data with third parties.</strong></p>
         <p>The app contains no third-party SDKs that collect data, no advertising networks, and no analytics services.</p>
-        <p>The only circumstance in which your data leaves your device is through your operating system's own backup feature, described in <strong>Device Backups</strong> below. This is controlled by you and your device platform — not by the app.</p>
+        <p>The only circumstances in which your data leaves your device are: (1) your operating system's own backup feature, described in <strong>Device Backups</strong> below; and (2) Google Play Billing for the one-time unlock, described in <strong>Purchases</strong> above. Both are operated by Google and controlled by you and your device platform — not by the app.</p>
         <p>Tasks on Time includes an import/export feature that allows you to save or load your data as a JSON file. This operates entirely under your control using your device's local file system and share sheet.</p>
       </section>
 
@@ -273,6 +281,7 @@
           <li><strong>Notifications</strong> — to display reminder notifications when tasks become overdue</li>
           <li><strong>Exact alarms</strong> — to schedule precise notification timing for reminders</li>
           <li><strong>Run at startup</strong> — to reschedule notifications after your device restarts</li>
+          <li><strong>Internet</strong> — used only by Google Play Billing for the one-time unlock; the app makes no network calls of its own that send your data anywhere</li>
         </ul>
         <p>Device backup (see <strong>Device Backups</strong> above) does not require an app permission; it is a feature of your device's operating system and is controlled in your system settings.</p>
       </section>
